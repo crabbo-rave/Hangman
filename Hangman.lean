@@ -1,2 +1,1 @@
 import Hangman.HangmanGame
-import Hangman.HangmanFuncs

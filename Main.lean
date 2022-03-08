@@ -1,4 +1,6 @@
 import Hangman
 
-def main : IO Unit :=
-  IO.println s!"Hello, world!"
+def main (args : List String): IO Unit :=
+  IO.println s!"{args}"
+
+#eval "5".toInt?
